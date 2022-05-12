@@ -103,7 +103,7 @@ footer a {
   color: #fff;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .content {
     margin: 5% 5%;
   }

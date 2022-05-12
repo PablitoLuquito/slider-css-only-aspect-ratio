@@ -17,21 +17,26 @@
           <input type="radio" name="slide" id="slide4" />
           <input type="radio" name="slide" id="slide5" />
 
-          <figure class="slide inicio">
-            <img src="./img/1.jpg" alt="Paisagem de Primavera" />
-          </figure>
-          <figure class="slide">
-            <img src="./img/2.jpg" alt="Paisagem de Verão" />
-          </figure>
-          <figure class="slide">
-            <img src="./img/3.jpg" alt="Paisagem de Outono" />
-          </figure>
-          <figure class="slide">
-            <img src="./img/4.jpg" alt="Paisagem de Inverno" />
-          </figure>
-          <figure class="slide">
-            <img src="./img/5.jpg" alt="Planeta Terra visto do espaço" />
-          </figure>
+          <picture class="slide inicio">
+            <source media="(min-width: 768px)" srcset="./img/1.jpg" />
+            <img src="./img/1-tiny.jpg" alt="Paisagem de Primavera" />
+          </picture>
+          <picture class="slide">
+            <source media="(min-width: 768px)" srcset="./img/2.jpg" />
+            <img src="./img/2-tiny.jpg" alt="Paisagem de Verão" />
+          </picture>
+          <picture class="slide">
+            <source media="(min-width: 768px)" srcset="./img/3.jpg" />
+            <img src="./img/3-tiny.jpg" alt="Paisagem de Outono" />
+          </picture>
+          <picture class="slide">
+            <source media="(min-width: 768px)" srcset="./img/4.jpg" />
+            <img src="./img/4-tiny.jpg" alt="Paisagem de Inverno" />
+          </picture>
+          <picture class="slide">
+            <source media="(min-width: 768px)" srcset="./img/5.jpg" />
+            <img src="./img/5-tiny.jpg" alt="Planeta Terra visto do espaço" />
+          </picture>
 
           <div class="navigation">
             <label for="slide1" class="bar"></label>
