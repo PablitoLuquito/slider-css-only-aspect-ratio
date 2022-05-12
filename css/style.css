@@ -104,6 +104,10 @@ footer a {
 }
 
 @media screen and (max-width: 800px) {
+  .content {
+    margin: 5% 5%;
+  }
+
   .navigation {
     column-gap: 30px;
   }
